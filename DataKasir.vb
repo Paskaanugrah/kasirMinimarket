@@ -72,7 +72,8 @@ Public Class DataKasir
     End Sub
 
     Private Sub DataKasir_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        connect("localhost", "root", "", "minimarket")
+        RD.Close()
+        connect("localhost", "root", "", "db_minimarket")
         State = StateEnum.StateIdle
         Call StateChange()
         Try

@@ -43,7 +43,6 @@ Partial Class DataAdmin
         Me.Button2 = New System.Windows.Forms.Button
         Me.Label3 = New System.Windows.Forms.Label
         Me.Label2 = New System.Windows.Forms.Label
-        Me.Button1 = New System.Windows.Forms.Button
         Me.Label1 = New System.Windows.Forms.Label
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker
         Me.GroupBox1 = New System.Windows.Forms.GroupBox
@@ -191,7 +190,7 @@ Partial Class DataAdmin
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(524, 26)
+        Me.Button2.Location = New System.Drawing.Point(653, 23)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 32
@@ -215,15 +214,6 @@ Partial Class DataAdmin
         Me.Label2.Size = New System.Drawing.Size(41, 13)
         Me.Label2.TabIndex = 30
         Me.Label2.Text = "Nama :"
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(618, 25)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 29
-        Me.Button1.Text = "Logout"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -275,7 +265,6 @@ Partial Class DataAdmin
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Name = "DataAdmin"
@@ -308,7 +297,6 @@ Partial Class DataAdmin
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox

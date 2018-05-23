@@ -46,6 +46,7 @@ Partial Class Main
         Me.btn_edit = New System.Windows.Forms.Button
         Me.Label10 = New System.Windows.Forms.Label
         Me.GroupBox1 = New System.Windows.Forms.GroupBox
+        Me.btn_cetak = New System.Windows.Forms.Button
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -137,7 +138,7 @@ Partial Class Main
         'btn_delete
         '
         Me.btn_delete.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_delete.Location = New System.Drawing.Point(107, 499)
+        Me.btn_delete.Location = New System.Drawing.Point(107, 510)
         Me.btn_delete.Name = "btn_delete"
         Me.btn_delete.Size = New System.Drawing.Size(106, 49)
         Me.btn_delete.TabIndex = 10
@@ -222,15 +223,15 @@ Partial Class Main
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(156, 239)
+        Me.DataGridView1.Location = New System.Drawing.Point(148, 220)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(645, 239)
+        Me.DataGridView1.Size = New System.Drawing.Size(593, 269)
         Me.DataGridView1.TabIndex = 20
         '
         'btn_edit
         '
         Me.btn_edit.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_edit.Location = New System.Drawing.Point(240, 499)
+        Me.btn_edit.Location = New System.Drawing.Point(240, 510)
         Me.btn_edit.Name = "btn_edit"
         Me.btn_edit.Size = New System.Drawing.Size(106, 49)
         Me.btn_edit.TabIndex = 21
@@ -259,12 +260,22 @@ Partial Class Main
         Me.GroupBox1.TabIndex = 23
         Me.GroupBox1.TabStop = False
         '
+        'btn_cetak
+        '
+        Me.btn_cetak.Location = New System.Drawing.Point(747, 615)
+        Me.btn_cetak.Name = "btn_cetak"
+        Me.btn_cetak.Size = New System.Drawing.Size(100, 26)
+        Me.btn_cetak.TabIndex = 24
+        Me.btn_cetak.Text = "Cetak"
+        Me.btn_cetak.UseVisualStyleBackColor = True
+        '
         'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.ClientSize = New System.Drawing.Size(921, 653)
+        Me.Controls.Add(Me.btn_cetak)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.btn_edit)
@@ -316,5 +327,6 @@ Partial Class Main
     Friend WithEvents btn_edit As System.Windows.Forms.Button
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents btn_cetak As System.Windows.Forms.Button
 
 End Class

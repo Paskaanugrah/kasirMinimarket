@@ -19,7 +19,7 @@ Module Module1
     End Sub
     Public Sub bukaDB()
         Dim SQLConn As String
-        SQLConn = "server=localhost;Uid=root;Pwd=;Database=minimarket;Convert Zero Datetime=true"
+        SQLConn = "server=localhost;Uid=root;Pwd=;Database=db_minimarket;Convert Zero Datetime=true"
         conn = New MySqlConnection(SQLConn)
         If conn.State = ConnectionState.Closed Then
             conn.Open()

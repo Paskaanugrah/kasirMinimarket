@@ -23,24 +23,25 @@ Partial Class DataBarang
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container
-        Me.Button7 = New System.Windows.Forms.Button
+        Me.btn_cancel = New System.Windows.Forms.Button
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Button6 = New System.Windows.Forms.Button
-        Me.Button5 = New System.Windows.Forms.Button
-        Me.Button4 = New System.Windows.Forms.Button
-        Me.Button3 = New System.Windows.Forms.Button
+        Me.btn_delete = New System.Windows.Forms.Button
+        Me.btn_edit = New System.Windows.Forms.Button
+        Me.btn_save = New System.Windows.Forms.Button
+        Me.btn_add = New System.Windows.Forms.Button
         Me.DataGridView1 = New System.Windows.Forms.DataGridView
         Me.Button2 = New System.Windows.Forms.Button
         Me.Label3 = New System.Windows.Forms.Label
         Me.Label2 = New System.Windows.Forms.Label
-        Me.Button1 = New System.Windows.Forms.Button
         Me.Label1 = New System.Windows.Forms.Label
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker
         Me.GroupBox1 = New System.Windows.Forms.GroupBox
+        Me.txt_harga = New System.Windows.Forms.TextBox
+        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker
+        Me.Harga = New System.Windows.Forms.Label
         Me.txt_id = New System.Windows.Forms.TextBox
         Me.Label9 = New System.Windows.Forms.Label
         Me.Label10 = New System.Windows.Forms.Label
-        Me.txt_exp = New System.Windows.Forms.TextBox
         Me.Label11 = New System.Windows.Forms.Label
         Me.txt_nama = New System.Windows.Forms.TextBox
         Me.Label12 = New System.Windows.Forms.Label
@@ -49,55 +50,55 @@ Partial Class DataBarang
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Button7
+        'btn_cancel
         '
-        Me.Button7.Location = New System.Drawing.Point(141, 364)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 23)
-        Me.Button7.TabIndex = 48
-        Me.Button7.Text = "Cancel"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.btn_cancel.Location = New System.Drawing.Point(141, 364)
+        Me.btn_cancel.Name = "btn_cancel"
+        Me.btn_cancel.Size = New System.Drawing.Size(75, 23)
+        Me.btn_cancel.TabIndex = 48
+        Me.btn_cancel.Text = "Cancel"
+        Me.btn_cancel.UseVisualStyleBackColor = True
         '
         'Timer1
         '
         Me.Timer1.Enabled = True
         Me.Timer1.Interval = 1
         '
-        'Button6
+        'btn_delete
         '
-        Me.Button6.Location = New System.Drawing.Point(51, 364)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 23)
-        Me.Button6.TabIndex = 47
-        Me.Button6.Text = "Delete"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.btn_delete.Location = New System.Drawing.Point(51, 364)
+        Me.btn_delete.Name = "btn_delete"
+        Me.btn_delete.Size = New System.Drawing.Size(75, 23)
+        Me.btn_delete.TabIndex = 47
+        Me.btn_delete.Text = "Delete"
+        Me.btn_delete.UseVisualStyleBackColor = True
         '
-        'Button5
+        'btn_edit
         '
-        Me.Button5.Location = New System.Drawing.Point(181, 326)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 23)
-        Me.Button5.TabIndex = 46
-        Me.Button5.Text = "Edit"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.btn_edit.Location = New System.Drawing.Point(181, 326)
+        Me.btn_edit.Name = "btn_edit"
+        Me.btn_edit.Size = New System.Drawing.Size(75, 23)
+        Me.btn_edit.TabIndex = 46
+        Me.btn_edit.Text = "Edit"
+        Me.btn_edit.UseVisualStyleBackColor = True
         '
-        'Button4
+        'btn_save
         '
-        Me.Button4.Location = New System.Drawing.Point(100, 326)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 45
-        Me.Button4.Text = "Save"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btn_save.Location = New System.Drawing.Point(100, 326)
+        Me.btn_save.Name = "btn_save"
+        Me.btn_save.Size = New System.Drawing.Size(75, 23)
+        Me.btn_save.TabIndex = 45
+        Me.btn_save.Text = "Save"
+        Me.btn_save.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btn_add
         '
-        Me.Button3.Location = New System.Drawing.Point(19, 326)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 44
-        Me.Button3.Text = "Add New"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btn_add.Location = New System.Drawing.Point(19, 326)
+        Me.btn_add.Name = "btn_add"
+        Me.btn_add.Size = New System.Drawing.Size(75, 23)
+        Me.btn_add.TabIndex = 44
+        Me.btn_add.Text = "Add New"
+        Me.btn_add.UseVisualStyleBackColor = True
         '
         'DataGridView1
         '
@@ -109,7 +110,7 @@ Partial Class DataBarang
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(563, 29)
+        Me.Button2.Location = New System.Drawing.Point(659, 29)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 32
@@ -134,15 +135,6 @@ Partial Class DataBarang
         Me.Label2.TabIndex = 30
         Me.Label2.Text = "Nama :"
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(659, 28)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 29
-        Me.Button1.Text = "Logout"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -161,19 +153,44 @@ Partial Class DataBarang
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.txt_harga)
+        Me.GroupBox1.Controls.Add(Me.DateTimePicker2)
+        Me.GroupBox1.Controls.Add(Me.Harga)
         Me.GroupBox1.Controls.Add(Me.txt_id)
         Me.GroupBox1.Controls.Add(Me.Label9)
         Me.GroupBox1.Controls.Add(Me.Label10)
-        Me.GroupBox1.Controls.Add(Me.txt_exp)
         Me.GroupBox1.Controls.Add(Me.Label11)
         Me.GroupBox1.Controls.Add(Me.txt_nama)
         Me.GroupBox1.Controls.Add(Me.Label12)
         Me.GroupBox1.Controls.Add(Me.txt_stock)
         Me.GroupBox1.Location = New System.Drawing.Point(19, 128)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(259, 166)
+        Me.GroupBox1.Size = New System.Drawing.Size(276, 179)
         Me.GroupBox1.TabIndex = 52
         Me.GroupBox1.TabStop = False
+        '
+        'txt_harga
+        '
+        Me.txt_harga.Location = New System.Drawing.Point(90, 84)
+        Me.txt_harga.Name = "txt_harga"
+        Me.txt_harga.Size = New System.Drawing.Size(149, 20)
+        Me.txt_harga.TabIndex = 54
+        '
+        'DateTimePicker2
+        '
+        Me.DateTimePicker2.Location = New System.Drawing.Point(89, 143)
+        Me.DateTimePicker2.Name = "DateTimePicker2"
+        Me.DateTimePicker2.Size = New System.Drawing.Size(180, 20)
+        Me.DateTimePicker2.TabIndex = 53
+        '
+        'Harga
+        '
+        Me.Harga.AutoSize = True
+        Me.Harga.Location = New System.Drawing.Point(16, 87)
+        Me.Harga.Name = "Harga"
+        Me.Harga.Size = New System.Drawing.Size(36, 13)
+        Me.Harga.TabIndex = 53
+        Me.Harga.Text = "Harga"
         '
         'txt_id
         '
@@ -185,7 +202,7 @@ Partial Class DataBarang
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(16, 23)
+        Me.Label9.Location = New System.Drawing.Point(16, 26)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(16, 13)
         Me.Label9.TabIndex = 34
@@ -194,23 +211,16 @@ Partial Class DataBarang
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(16, 94)
+        Me.Label10.Location = New System.Drawing.Point(16, 115)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(35, 13)
         Me.Label10.TabIndex = 35
         Me.Label10.Text = "Stock"
         '
-        'txt_exp
-        '
-        Me.txt_exp.Location = New System.Drawing.Point(90, 130)
-        Me.txt_exp.Name = "txt_exp"
-        Me.txt_exp.Size = New System.Drawing.Size(149, 20)
-        Me.txt_exp.TabIndex = 42
-        '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(16, 58)
+        Me.Label11.Location = New System.Drawing.Point(16, 55)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(35, 13)
         Me.Label11.TabIndex = 36
@@ -218,15 +228,15 @@ Partial Class DataBarang
         '
         'txt_nama
         '
-        Me.txt_nama.Location = New System.Drawing.Point(90, 58)
+        Me.txt_nama.Location = New System.Drawing.Point(90, 54)
         Me.txt_nama.Name = "txt_nama"
         Me.txt_nama.Size = New System.Drawing.Size(149, 20)
-        Me.txt_nama.TabIndex = 41
+        Me.txt_nama.TabIndex = 40
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(16, 133)
+        Me.Label12.Location = New System.Drawing.Point(15, 147)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(68, 13)
         Me.Label12.TabIndex = 37
@@ -234,10 +244,10 @@ Partial Class DataBarang
         '
         'txt_stock
         '
-        Me.txt_stock.Location = New System.Drawing.Point(90, 94)
+        Me.txt_stock.Location = New System.Drawing.Point(90, 115)
         Me.txt_stock.Name = "txt_stock"
         Me.txt_stock.Size = New System.Drawing.Size(149, 20)
-        Me.txt_stock.TabIndex = 40
+        Me.txt_stock.TabIndex = 41
         '
         'DataBarang
         '
@@ -246,16 +256,15 @@ Partial Class DataBarang
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.ClientSize = New System.Drawing.Size(763, 418)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.btn_cancel)
+        Me.Controls.Add(Me.btn_delete)
+        Me.Controls.Add(Me.btn_edit)
+        Me.Controls.Add(Me.btn_save)
+        Me.Controls.Add(Me.btn_add)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Name = "DataBarang"
@@ -268,26 +277,27 @@ Partial Class DataBarang
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Button7 As System.Windows.Forms.Button
+    Friend WithEvents btn_cancel As System.Windows.Forms.Button
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
-    Friend WithEvents Button6 As System.Windows.Forms.Button
-    Friend WithEvents Button5 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents btn_delete As System.Windows.Forms.Button
+    Friend WithEvents btn_edit As System.Windows.Forms.Button
+    Friend WithEvents btn_save As System.Windows.Forms.Button
+    Friend WithEvents btn_add As System.Windows.Forms.Button
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents txt_id As System.Windows.Forms.TextBox
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
-    Friend WithEvents txt_exp As System.Windows.Forms.TextBox
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents txt_nama As System.Windows.Forms.TextBox
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents txt_stock As System.Windows.Forms.TextBox
+    Friend WithEvents DateTimePicker2 As System.Windows.Forms.DateTimePicker
+    Friend WithEvents Harga As System.Windows.Forms.Label
+    Friend WithEvents txt_harga As System.Windows.Forms.TextBox
 End Class

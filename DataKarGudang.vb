@@ -73,7 +73,8 @@ Public Class DataKarGudang
     End Sub
 
     Private Sub DataKarGudang_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        connect("localhost", "root", "", "minimarket")
+        RD.Close()
+        connect("localhost", "root", "", "db_minimarket")
         State = StateEnum.StateIdle
         Call StateChange()
         Try

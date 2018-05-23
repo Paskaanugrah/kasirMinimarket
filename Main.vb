@@ -2,6 +2,7 @@
 Public Class Main
     Public DA As MySqlDataAdapter
     Public DS As DataSet
+
     Sub tampilCombo()
         Call bukaDB()
         CMD = New MySqlCommand("select id from barang", conn)
@@ -57,35 +58,7 @@ Public Class Main
             txt_total.Text = RD.Item("total")
         End If
     End Sub
-    'End Sub'
-    Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
-        Label1.Text = Format(Now, "HH:mm:ss")
-    End Sub
-
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Login.Show()
-        Me.Hide()
-    End Sub
-
-    Private Sub Main_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        Call bukaDB()
-        Call tampilCombo()
-        txt_total.Enabled = False
-        txt_kmbl.Enabled = False
-    End Sub
-
-    Private Sub btn_add_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_add.Click
-        Call bukaDB()
-        Call tampilBarang()
-        Call totalBarang()
-        txt_total.Enabled = True
-        ComboBox1.Text = ""
-        txt_jmlh.Text = ""
-        txt_total.Enabled = True
-        txt_kmbl.Enabled = True
-    End Sub
-
-    Private Sub btn_cetak_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Sub cetakTrans()
         Call bukaDB()
         CMD = New MySqlCommand("insert into transaksi(tanggal,jumlah, jmlh_total,jam) select now(),sum(jumlah), sum(total), now() from listbarang", conn)
         RD = CMD.ExecuteReader
@@ -110,16 +83,74 @@ Public Class Main
             DataGridView1.ReadOnly = True
         End If
     End Sub
-
-    Private Sub btn_edit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_edit.Click
-
+    'Sub updateBrg()
+    '    Call bukaDB()
+    '    ubah = "update barang set stock = stock - '" & txt_jmlh.Text & "' where id = '" & ComboBox1.Text & "'"
+    '    With CMD
+    '        .CommandText = ubah
+    '        .Connection = conn
+    '        .ExecuteNonQuery()
+    '    End With
+    '    If RD.HasRows Then
+    '        Call bukaDB()
+    '        CMD = New MySqlCommand("insert into barang (stock) values ('" & txt_jmlh.Text & "','Peng-update-an Data')", conn)
+    '        'RD = CMD.ExecuteReader
+    '        RD.Read()
+    '    End If
+    'End Sub
+    Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+        Label1.Text = Format(Now, "hh:mm:ss")
     End Sub
 
-    Private Sub Label2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label2.Click
-
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        Login.Show()
+        Me.Hide()
     End Sub
 
-    Private Sub Label10_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label10.Click
+    Private Sub Main_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Call bukaDB()
+        Call tampilCombo()
+        txt_total.Enabled = False
+        txt_kmbl.Enabled = False
+    End Sub
 
+    Private Sub btn_add_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_add.Click
+        Call bukaDB()
+        Call tampilBarang()
+        Call totalBarang()
+        'Call updateBrg()
+        txt_total.Enabled = True
+        ComboBox1.Text = ""
+        txt_jmlh.Text = ""
+        txt_total.Enabled = True
+        txt_kmbl.Enabled = True
+    End Sub
+
+    Private Sub btn_cetak_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_cetak.Click
+        cetakTrans()
+    End Sub
+
+    Private Sub btn_delete_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_delete.Click
+        Call bukaDB()
+        CMD = New MySqlCommand("delete from listbarang", conn)
+        RD = CMD.ExecuteReader
+        RD.Read()
+
+        MessageBox.Show("Data dihapus", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+        If MsgBoxResult.Ok Then
+            txt_total.Text = ""
+            txt_total.Enabled = False
+            Call bukaDB()
+            CMD = New MySqlCommand("select nama_brg from listbarang", conn)
+            RD = CMD.ExecuteReader
+            RD.Read()
+            RD.Close()
+            DA = New MySqlDataAdapter("select nama_brg 'Nama Barang', harga 'Harga', jumlah 'Jumlah', total 'Total'  from listbarang", conn)
+            DS = New DataSet
+            DA.Fill(DS, "listbarang")
+            DataGridView1.DataSource = DS.Tables("listbarang")
+            DataGridView1.ReadOnly = True
+        End If
     End Sub
 End Class
