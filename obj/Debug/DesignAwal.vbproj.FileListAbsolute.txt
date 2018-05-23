@@ -1,0 +1,118 @@
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\bin\Debug\DesignAwal.exe
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\bin\Debug\DesignAwal.pdb
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\bin\Debug\DesignAwal.xml
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\obj\Debug\ResolveAssemblyReference.cache
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\obj\Debug\WindowsApplication1.Form1.resources
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\obj\Debug\WindowsApplication1.Form2.resources
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\obj\Debug\WindowsApplication1.Resources.resources
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\obj\Debug\DesignAwal.vbproj.GenerateResource.Cache
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\obj\Debug\DesignAwal.exe
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\obj\Debug\DesignAwal.xml
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\obj\Debug\DesignAwal.pdb
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\obj\Debug\WindowsApplication1.Form3.resources
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\obj\Debug\WindowsApplication1.Form4.resources
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\obj\Debug\WindowsApplication1.Form5.resources
+D:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\obj\Debug\DesignAwal.exe
+D:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\obj\Debug\DesignAwal.xml
+D:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018)\DesignAwal\DesignAwal\obj\Debug\DesignAwal.pdb
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018) design awal\DesignAwal\DesignAwal\obj\Debug\DesignAwal.exe
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018) design awal\DesignAwal\DesignAwal\obj\Debug\DesignAwal.xml
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 14 (12 April 2018) design awal\DesignAwal\DesignAwal\obj\Debug\DesignAwal.pdb
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 19 (02 Mei 2018) laporan individu 2\DesignAwal\DesignAwal\obj\Debug\DesignAwal.exe
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 19 (02 Mei 2018) laporan individu 2\DesignAwal\DesignAwal\obj\Debug\DesignAwal.xml
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 19 (02 Mei 2018) laporan individu 2\DesignAwal\DesignAwal\obj\Debug\DesignAwal.pdb
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 19 (03 Mei 2018) laporan individu 2\DesignAwal\DesignAwal\obj\Debug\DesignAwal.exe
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 19 (03 Mei 2018) laporan individu 2\DesignAwal\DesignAwal\obj\Debug\DesignAwal.xml
+E:\SEMESTER 4\KL PEMROGRAMAN VISUAL\pertemuan 19 (03 Mei 2018) laporan individu 2\DesignAwal\DesignAwal\obj\Debug\DesignAwal.pdb
+E:\DesignAwal\DesignAwal\obj\Debug\DesignAwal.exe
+E:\DesignAwal\DesignAwal\obj\Debug\DesignAwal.xml
+E:\DesignAwal\DesignAwal\obj\Debug\DesignAwal.pdb
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\obj\Debug\DesignAwal.exe
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\obj\Debug\DesignAwal.xml
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\obj\Debug\DesignAwal.pdb
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\bin\Debug\DesignAwal.exe
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\bin\Debug\DesignAwal.pdb
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\bin\Debug\DesignAwal.xml
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\obj\Debug\WindowsApplication1.Main.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\obj\Debug\WindowsApplication1.Login.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\obj\Debug\WindowsApplication1.HomeKarGudang.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\obj\Debug\WindowsApplication1.UpdateStockBarang.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\obj\Debug\WindowsApplication1.AdminDashboard.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\obj\Debug\WindowsApplication1.DataKasir.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\obj\Debug\WindowsApplication1.DataKarGudang.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\obj\Debug\WindowsApplication1.DataAdmin.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\obj\Debug\WindowsApplication1.DataBarang.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\DesignAwal\obj\Debug\DesignAwal.vbproj.GenerateResource.Cache
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\obj\Debug\DesignAwal.exe
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\obj\Debug\DesignAwal.xml
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\obj\Debug\DesignAwal.pdb
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\bin\Debug\DesignAwal.exe
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\bin\Debug\DesignAwal.pdb
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\bin\Debug\DesignAwal.xml
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\obj\Debug\ResolveAssemblyReference.cache
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\obj\Debug\WindowsApplication1.Main.resources
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\obj\Debug\WindowsApplication1.Login.resources
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\obj\Debug\WindowsApplication1.HomeKarGudang.resources
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\obj\Debug\WindowsApplication1.UpdateStockBarang.resources
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\obj\Debug\WindowsApplication1.AdminDashboard.resources
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\obj\Debug\WindowsApplication1.DataKasir.resources
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\obj\Debug\WindowsApplication1.DataKarGudang.resources
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\obj\Debug\WindowsApplication1.DataAdmin.resources
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\obj\Debug\WindowsApplication1.DataBarang.resources
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\obj\Debug\WindowsApplication1.Resources.resources
+E:\KULIAH\SEMESTER 4\KL PEMROGRAMAN VISUAL\DesignAwal\obj\Debug\DesignAwal.vbproj.GenerateResource.Cache
+E:\KULIAH\SEMESTER 4\DesignAwal\obj\Debug\DesignAwal.exe
+E:\KULIAH\SEMESTER 4\DesignAwal\obj\Debug\DesignAwal.xml
+E:\KULIAH\SEMESTER 4\DesignAwal\obj\Debug\DesignAwal.pdb
+E:\KULIAH\SEMESTER 4\DesignAwal\bin\Debug\DesignAwal.exe
+E:\KULIAH\SEMESTER 4\DesignAwal\bin\Debug\DesignAwal.pdb
+E:\KULIAH\SEMESTER 4\DesignAwal\bin\Debug\DesignAwal.xml
+E:\KULIAH\SEMESTER 4\DesignAwal\obj\Debug\ResolveAssemblyReference.cache
+E:\KULIAH\SEMESTER 4\DesignAwal\obj\Debug\WindowsApplication1.Main.resources
+E:\KULIAH\SEMESTER 4\DesignAwal\obj\Debug\WindowsApplication1.Login.resources
+E:\KULIAH\SEMESTER 4\DesignAwal\obj\Debug\WindowsApplication1.HomeKarGudang.resources
+E:\KULIAH\SEMESTER 4\DesignAwal\obj\Debug\WindowsApplication1.AdminDashboard.resources
+E:\KULIAH\SEMESTER 4\DesignAwal\obj\Debug\WindowsApplication1.DataKasir.resources
+E:\KULIAH\SEMESTER 4\DesignAwal\obj\Debug\WindowsApplication1.DataKarGudang.resources
+E:\KULIAH\SEMESTER 4\DesignAwal\obj\Debug\WindowsApplication1.DataAdmin.resources
+E:\KULIAH\SEMESTER 4\DesignAwal\obj\Debug\WindowsApplication1.DataBarang.resources
+E:\KULIAH\SEMESTER 4\DesignAwal\obj\Debug\WindowsApplication1.Resources.resources
+E:\KULIAH\SEMESTER 4\DesignAwal\obj\Debug\DesignAwal.vbproj.GenerateResource.Cache
+G:\DesignAwal\obj\Debug\DesignAwal.exe
+G:\DesignAwal\obj\Debug\DesignAwal.xml
+G:\DesignAwal\obj\Debug\DesignAwal.pdb
+G:\DesignAwal\obj\Debug\ResolveAssemblyReference.cache
+G:\DesignAwal\obj\Debug\WindowsApplication1.Main.resources
+G:\DesignAwal\obj\Debug\WindowsApplication1.Login.resources
+G:\DesignAwal\obj\Debug\WindowsApplication1.HomeKarGudang.resources
+G:\DesignAwal\obj\Debug\WindowsApplication1.AdminDashboard.resources
+G:\DesignAwal\obj\Debug\WindowsApplication1.DataKasir.resources
+G:\DesignAwal\obj\Debug\WindowsApplication1.DataKarGudang.resources
+G:\DesignAwal\obj\Debug\WindowsApplication1.DataAdmin.resources
+G:\DesignAwal\obj\Debug\WindowsApplication1.DataBarang.resources
+G:\DesignAwal\obj\Debug\WindowsApplication1.Resources.resources
+G:\DesignAwal\obj\Debug\DesignAwal.vbproj.GenerateResource.Cache
+G:\DesignAwal\bin\Debug\DesignAwal.exe
+G:\DesignAwal\bin\Debug\DesignAwal.pdb
+G:\DesignAwal\bin\Debug\DesignAwal.xml
+G:\DesignAwal\bin\Debug\MySql.Data.dll
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\obj\Debug\DesignAwal.exe
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\obj\Debug\DesignAwal.xml
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\obj\Debug\DesignAwal.pdb
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\bin\Debug\DesignAwal.exe
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\bin\Debug\DesignAwal.pdb
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\bin\Debug\DesignAwal.xml
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\bin\Debug\MySql.Data.dll
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\obj\Debug\WindowsApplication1.Main.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\obj\Debug\WindowsApplication1.Login.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\obj\Debug\WindowsApplication1.HomeKarGudang.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\obj\Debug\WindowsApplication1.AdminDashboard.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\obj\Debug\WindowsApplication1.DataKasir.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\obj\Debug\WindowsApplication1.DataKarGudang.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\obj\Debug\WindowsApplication1.DataAdmin.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\obj\Debug\WindowsApplication1.DataBarang.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Paska Anugrah Adil\Documents\Visual Studio 2008\Projects\TA\DesignAwal\obj\Debug\DesignAwal.vbproj.GenerateResource.Cache
