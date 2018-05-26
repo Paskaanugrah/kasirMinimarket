@@ -47,7 +47,6 @@ Public Class Main
         CMD = New MySqlCommand("insert into totaltab (total) select sum(total) from listbarang;", conn)
         RD = CMD.ExecuteReader
         RD.Read()
-
         MessageBox.Show("Data Berhasil Ditambah", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
         If MsgBoxResult.Ok Then
@@ -83,21 +82,21 @@ Public Class Main
             DataGridView1.ReadOnly = True
         End If
     End Sub
-    'Sub updateBrg()
-    '    Call bukaDB()
-    '    ubah = "update barang set stock = stock - '" & txt_jmlh.Text & "' where id = '" & ComboBox1.Text & "'"
-    '    With CMD
-    '        .CommandText = ubah
-    '        .Connection = conn
-    '        .ExecuteNonQuery()
-    '    End With
-    '    If RD.HasRows Then
-    '        Call bukaDB()
-    '        CMD = New MySqlCommand("insert into barang (stock) values ('" & txt_jmlh.Text & "','Peng-update-an Data')", conn)
-    '        'RD = CMD.ExecuteReader
-    '        RD.Read()
-    '    End If
-    'End Sub
+    Sub updateBrg()
+        Call bukaDB()
+        ubah = "update barang set stock = stock - '" & txt_jmlh.Text & "' where id = '" & ComboBox1.Text & "'"
+        With CMD
+            .CommandText = ubah
+            .Connection = conn
+            .ExecuteNonQuery()
+        End With
+        If RD.HasRows Then
+            Call bukaDB()
+            CMD = New MySqlCommand("insert into barang (stock) values ('" & txt_jmlh.Text & "','Peng-update-an Data')", conn)
+            'RD = CMD.ExecuteReader
+            RD.Read()
+        End If
+    End Sub
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
         Label1.Text = Format(Now, "hh:mm:ss")
     End Sub
@@ -116,9 +115,9 @@ Public Class Main
 
     Private Sub btn_add_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_add.Click
         Call bukaDB()
+        Call updateBrg()
         Call tampilBarang()
         Call totalBarang()
-        'Call updateBrg()
         txt_total.Enabled = True
         ComboBox1.Text = ""
         txt_jmlh.Text = ""
@@ -153,4 +152,5 @@ Public Class Main
             DataGridView1.ReadOnly = True
         End If
     End Sub
+
 End Class

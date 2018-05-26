@@ -43,7 +43,6 @@ Partial Class Main
         Me.txt_byr = New System.Windows.Forms.TextBox
         Me.txt_kmbl = New System.Windows.Forms.TextBox
         Me.DataGridView1 = New System.Windows.Forms.DataGridView
-        Me.btn_edit = New System.Windows.Forms.Button
         Me.Label10 = New System.Windows.Forms.Label
         Me.GroupBox1 = New System.Windows.Forms.GroupBox
         Me.btn_cetak = New System.Windows.Forms.Button
@@ -74,7 +73,7 @@ Partial Class Main
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(359, 77)
+        Me.Label2.Location = New System.Drawing.Point(408, 77)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(59, 20)
         Me.Label2.TabIndex = 2
@@ -83,7 +82,7 @@ Partial Class Main
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(389, 82)
+        Me.Label3.Location = New System.Drawing.Point(438, 82)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(0, 13)
         Me.Label3.TabIndex = 3
@@ -138,9 +137,9 @@ Partial Class Main
         'btn_delete
         '
         Me.btn_delete.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_delete.Location = New System.Drawing.Point(107, 510)
+        Me.btn_delete.Location = New System.Drawing.Point(204, 528)
         Me.btn_delete.Name = "btn_delete"
-        Me.btn_delete.Size = New System.Drawing.Size(106, 49)
+        Me.btn_delete.Size = New System.Drawing.Size(131, 39)
         Me.btn_delete.TabIndex = 10
         Me.btn_delete.Text = "Hapus"
         Me.btn_delete.UseVisualStyleBackColor = True
@@ -148,7 +147,7 @@ Partial Class Main
         'btn_add
         '
         Me.btn_add.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_add.Location = New System.Drawing.Point(148, 156)
+        Me.btn_add.Location = New System.Drawing.Point(204, 156)
         Me.btn_add.Name = "btn_add"
         Me.btn_add.Size = New System.Drawing.Size(131, 45)
         Me.btn_add.TabIndex = 11
@@ -223,26 +222,16 @@ Partial Class Main
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(148, 220)
+        Me.DataGridView1.Location = New System.Drawing.Point(204, 214)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(593, 269)
+        Me.DataGridView1.Size = New System.Drawing.Size(526, 284)
         Me.DataGridView1.TabIndex = 20
-        '
-        'btn_edit
-        '
-        Me.btn_edit.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_edit.Location = New System.Drawing.Point(240, 510)
-        Me.btn_edit.Name = "btn_edit"
-        Me.btn_edit.Size = New System.Drawing.Size(106, 49)
-        Me.btn_edit.TabIndex = 21
-        Me.btn_edit.Text = "Edit"
-        Me.btn_edit.UseVisualStyleBackColor = True
         '
         'Label10
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(416, 77)
+        Me.Label10.Location = New System.Drawing.Point(465, 77)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(59, 20)
         Me.Label10.TabIndex = 22
@@ -254,7 +243,7 @@ Partial Class Main
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Controls.Add(Me.ComboBox1)
         Me.GroupBox1.Controls.Add(Me.txt_jmlh)
-        Me.GroupBox1.Location = New System.Drawing.Point(57, 66)
+        Me.GroupBox1.Location = New System.Drawing.Point(106, 66)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(289, 84)
         Me.GroupBox1.TabIndex = 23
@@ -264,7 +253,7 @@ Partial Class Main
         '
         Me.btn_cetak.Location = New System.Drawing.Point(747, 615)
         Me.btn_cetak.Name = "btn_cetak"
-        Me.btn_cetak.Size = New System.Drawing.Size(100, 26)
+        Me.btn_cetak.Size = New System.Drawing.Size(100, 47)
         Me.btn_cetak.TabIndex = 24
         Me.btn_cetak.Text = "Cetak"
         Me.btn_cetak.UseVisualStyleBackColor = True
@@ -274,11 +263,10 @@ Partial Class Main
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DeepSkyBlue
-        Me.ClientSize = New System.Drawing.Size(921, 653)
+        Me.ClientSize = New System.Drawing.Size(921, 681)
         Me.Controls.Add(Me.btn_cetak)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.btn_edit)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.txt_kmbl)
         Me.Controls.Add(Me.txt_byr)
@@ -324,7 +312,6 @@ Partial Class Main
     Friend WithEvents txt_byr As System.Windows.Forms.TextBox
     Friend WithEvents txt_kmbl As System.Windows.Forms.TextBox
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
-    Friend WithEvents btn_edit As System.Windows.Forms.Button
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents btn_cetak As System.Windows.Forms.Button
